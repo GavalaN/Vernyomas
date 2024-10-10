@@ -8,7 +8,17 @@ namespace Vernyomas
 {
     class Adatok
     {
-        //
-        public string datum { get; set; }
+        public DateTime datum { get; set; }
+        public int Szisztoles { get; set; }
+        public int Diaszteles { get; set; }
+        public int Pulzus { get; set; }
+
+        public Adatok(DateTime datum, int szisztoles, int diaszteles, int pulzus)
+        {
+            this.datum = datum;
+            Szisztoles = szisztoles;
+            Diaszteles = diaszteles;
+            Pulzus = pulzus;
+        }
     }
 }

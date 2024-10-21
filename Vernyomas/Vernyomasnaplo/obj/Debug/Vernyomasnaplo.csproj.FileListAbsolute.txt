@@ -1,0 +1,16 @@
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\bin\Debug\Vernyomasnaplo.exe.config
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\bin\Debug\Vernyomasnaplo.exe
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\bin\Debug\Vernyomasnaplo.pdb
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\Vernyomasnaplo.csproj.AssemblyReference.cache
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\Vernyomasnaplo.csproj.SuggestedBindingRedirects.cache
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\MainWindow.g.cs
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\App.g.cs
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\Vernyomasnaplo_MarkupCompile.cache
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\Vernyomasnaplo_MarkupCompile.lref
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\MainWindow.baml
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\Vernyomasnaplo.g.resources
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\Vernyomasnaplo.Properties.Resources.resources
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\Vernyomasnaplo.csproj.GenerateResource.cache
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\Vernyomasnaplo.csproj.CoreCompileInputs.cache
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\Vernyomasnaplo.exe
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\Vernyomasnaplo.pdb

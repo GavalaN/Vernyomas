@@ -1,0 +1,8 @@
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomas\bin\Debug\Vernyomas.exe.config
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomas\bin\Debug\Vernyomas.exe
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomas\bin\Debug\Vernyomas.pdb
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomas\obj\Debug\Vernyomas.csproj.AssemblyReference.cache
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomas\obj\Debug\Vernyomas.csproj.SuggestedBindingRedirects.cache
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomas\obj\Debug\Vernyomas.csproj.CoreCompileInputs.cache
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomas\obj\Debug\Vernyomas.exe
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomas\obj\Debug\Vernyomas.pdb

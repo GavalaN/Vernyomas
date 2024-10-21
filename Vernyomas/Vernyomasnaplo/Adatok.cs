@@ -12,13 +12,15 @@ namespace Vernyomas
         public int Szisztoles { get; set; }
         public int Diaszteles { get; set; }
         public int Pulzus { get; set; }
+        public string Tipus { get; }
 
-        public Adatok(DateTime datum, int szisztoles, int diaszteles, int pulzus)
+        public Adatok(string[] sor)
         {
-            this.datum = datum;
-            Szisztoles = szisztoles;
-            Diaszteles = diaszteles;
-            Pulzus = pulzus;
+            this.datum = Convert.ToDateTime(sor[0]);
+            Szisztoles = Convert.ToInt32(sor[1]);
+            Diaszteles = Convert.ToInt32(sor[2]);
+            Pulzus = Convert.ToInt32(sor[3]);
+            Tipus = VernyomasTipus();
         }
 
         public string VernyomasTipus()

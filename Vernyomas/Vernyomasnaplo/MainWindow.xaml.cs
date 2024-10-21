@@ -41,16 +41,21 @@ namespace Vernyomasnaplo
             }
             sr.Close();
             dtgAdatok.ItemsSource = AdatokLista;
+            dtgAdatok.Columns[0];
         }
 
         private void btnFelvetel_Click(object sender, RoutedEventArgs e)
         {
-
+            Modosit modosit = new Modosit();
+            modosit.Title = "Felvétel";
+            modosit.ShowDialog();
         }
 
         private void btnModositas_Click(object sender, RoutedEventArgs e)
         {
-
+            Modosit modosit = new Modosit();
+            modosit.Title = "Módosítás";
+            modosit.ShowDialog();
         }
 
         private void btnTorles_Click(object sender, RoutedEventArgs e)

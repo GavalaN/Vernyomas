@@ -14,3 +14,5 @@ C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Deb
 C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\Vernyomasnaplo.csproj.CoreCompileInputs.cache
 C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\Vernyomasnaplo.exe
 C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\Vernyomasnaplo.pdb
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\Modosit.g.cs
+C:\Users\GavalaN\Source\Repos\GavalaN\Vernyomas\Vernyomas\Vernyomasnaplo\obj\Debug\Modosit.baml

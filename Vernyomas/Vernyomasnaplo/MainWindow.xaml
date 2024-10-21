@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vernyomasnaplo"
         mc:Ignorable="d"
-        Title="Vérnyomásnapló" Height="450" Width="800" FontSize="16" Loaded="Window_Loaded" >
+        Title="Vérnyomásnapló" Height="450" Width="800" FontSize="16" ResizeMode="NoResize" Loaded="Window_Loaded" >
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />

@@ -8,7 +8,7 @@ namespace Vernyomas
 {
     class Adatok
     {
-        public DateTime datum { get; set; }
+        public DateTime Datum { get; set; }
         public int Szisztoles { get; set; }
         public int Diaszteles { get; set; }
         public int Pulzus { get; set; }
@@ -16,7 +16,7 @@ namespace Vernyomas
 
         public Adatok(string[] sor)
         {
-            this.datum = Convert.ToDateTime(sor[0]);
+            Datum = Convert.ToDateTime(sor[0]);
             Szisztoles = Convert.ToInt32(sor[1]);
             Diaszteles = Convert.ToInt32(sor[2]);
             Pulzus = Convert.ToInt32(sor[3]);

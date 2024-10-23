@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vernyomasnaplo"
         mc:Ignorable="d"
-        Title="Módosítás" Height="270" Width="320" ResizeMode="NoResize" FontSize="16" Loaded="Window_Loaded">
+        Title="Módosítás" Height="300" Width="320" ResizeMode="NoResize" FontSize="16" Loaded="Window_Loaded">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="3*" />
@@ -14,15 +14,17 @@
         <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="20">
             <StackPanel>
                 <Label Content="Dátum(ÉÉÉÉ-HH-NN):"/>
+                <Label Content="Idő(óó:pp):"/>
                 <Label Content="Szisztolés:"/>
                 <Label Content="Diasztolés:"/>
                 <Label Content="Pulzus:"/>
             </StackPanel>
             <StackPanel>
                 <TextBox x:Name="tbDatum" Width="90" Margin="0 5 0 3"/>
-                <TextBox Width="50" Margin="0 5 0 3" HorizontalAlignment="Left"/>
-                <TextBox Width="50" Margin="0 5 0 3" HorizontalAlignment="Left"/>
-                <TextBox Width="50" Margin="0 5 0 0" HorizontalAlignment="Left"/>
+                <TextBox x:Name="tbIdo" Width="50" Margin="0 5 0 3" HorizontalAlignment="Left"/>
+                <TextBox x:Name="tbSzisztoles" Width="50" Margin="0 5 0 3" HorizontalAlignment="Left"/>
+                <TextBox x:Name="tbDiasztoles" Width="50" Margin="0 5 0 3" HorizontalAlignment="Left"/>
+                <TextBox x:Name="tbPulzus" Width="50" Margin="0 5 0 0" HorizontalAlignment="Left"/>
             </StackPanel>
         </StackPanel>
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 0 0 10">

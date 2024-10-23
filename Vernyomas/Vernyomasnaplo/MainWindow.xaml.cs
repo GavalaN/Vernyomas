@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.IO;
 using System.Collections.ObjectModel;
 using Vernyomas;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrackBar;
 
 namespace Vernyomasnaplo
 {
@@ -28,7 +29,7 @@ namespace Vernyomasnaplo
             InitializeComponent();
         }
         
-        static ObservableCollection<Adatok> AdatokLista = new System.Collections.ObjectModel.ObservableCollection<Adatok>();
+        internal static ObservableCollection<Adatok> AdatokLista = new System.Collections.ObjectModel.ObservableCollection<Adatok>();
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
@@ -41,7 +42,7 @@ namespace Vernyomasnaplo
             }
             sr.Close();
             dtgAdatok.ItemsSource = AdatokLista;
-            dtgAdatok.Columns[0];
+            dtgAdatok.HorizontalScrollBarVisibility = ScrollBarVisibility.Disabled;
         }
 
         private void btnFelvetel_Click(object sender, RoutedEventArgs e)
@@ -53,19 +54,44 @@ namespace Vernyomasnaplo
 
         private void btnModositas_Click(object sender, RoutedEventArgs e)
         {
-            Modosit modosit = new Modosit();
-            modosit.Title = "Módosítás";
-            modosit.ShowDialog();
+            if (dtgAdatok.SelectedIndex == -1)
+            {
+                MessageBox.Show("Nincs kijelölve elem!","Figyelmeztetés",MessageBoxButton.OK,MessageBoxImage.Warning);
+            }
+            else
+            {
+                Modosit modosit = new Modosit(dtgAdatok.SelectedIndex);
+                modosit.Title = "Módosítás";
+                modosit.ShowDialog();
+            }
+            
         }
 
         private void btnTorles_Click(object sender, RoutedEventArgs e)
         {
-
+            if (dtgAdatok.SelectedIndex == -1)
+            {
+                MessageBox.Show("Nincs kijelölve elem!", "Figyelmeztetés", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+            else
+            {
+                if (MessageBox.Show("Biztos ki szeretnéd törölni?", "Figyelmeztetés", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
+                {
+                    AdatokLista.RemoveAt(dtgAdatok.SelectedIndex);
+                }
+            }
         }
 
         private void btnMentes_Click(object sender, RoutedEventArgs e)
         {
-
+            StreamWriter sw = new StreamWriter(@"vernyomas.txt");
+            sw.WriteLine("datum;ido;szisztoles;diasztoles;pulzus;tipus");
+            foreach (var item in AdatokLista)
+            {
+                sw.WriteLine(item.ToString());
+            }
+            sw.Close();
+            MessageBox.Show("Sikeres Mentés!","Információ",MessageBoxButton.OK,MessageBoxImage.Asterisk);
         }
 
         private void btnKilepes_Click(object sender, RoutedEventArgs e)

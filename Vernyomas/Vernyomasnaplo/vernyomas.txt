@@ -1,2 +1,2 @@
 datum;szisztoles;diasztoles;pulzus;tipus
-2000-01-01;120;80;70;das
+2000-01-01;20:00;120;80;70;das

@@ -8,7 +8,8 @@ namespace Vernyomas
 {
     class Adatok
     {
-        public DateTime Datum { get; set; }
+        public string Datum { get; set; }
+        public string Ido { get; set; }
         public int Szisztoles { get; set; }
         public int Diaszteles { get; set; }
         public int Pulzus { get; set; }
@@ -16,10 +17,11 @@ namespace Vernyomas
 
         public Adatok(string[] sor)
         {
-            Datum = Convert.ToDateTime(sor[0]);
-            Szisztoles = Convert.ToInt32(sor[1]);
-            Diaszteles = Convert.ToInt32(sor[2]);
-            Pulzus = Convert.ToInt32(sor[3]);
+            Datum = sor[0];
+            Ido = sor[1];
+            Szisztoles = Convert.ToInt32(sor[2]);
+            Diaszteles = Convert.ToInt32(sor[3]);
+            Pulzus = Convert.ToInt32(sor[4]);
             Tipus = VernyomasTipus();
         }
 
@@ -35,17 +37,22 @@ namespace Vernyomas
             }
             else if ((Szisztoles >= 140 && Szisztoles < 160) && (Diaszteles >= 90 && Diaszteles < 100))
             {
-                return "Prehipertenzió";
+                return "1.fokú hipertónia";
             }
             else if ((Szisztoles >= 160 && Szisztoles < 180) && (Diaszteles >= 100 && Diaszteles < 110))
             {
-                return "1.fokú hipertónia";
+                return "2.fokú hipertónia";
             }
             else if (Szisztoles >= 180 && Diaszteles >= 110)
             {
-                return "2.fokú hipertónia";
+                return "Magas vérnyomás krízis";
             }
-            return "";
+            return "Nincs ilyen típus!";
+        }
+
+        public override string ToString()
+        {
+            return $"{Datum};{Ido};{Szisztoles};{Diaszteles};{Pulzus};{Tipus}";
         }
     }
 }

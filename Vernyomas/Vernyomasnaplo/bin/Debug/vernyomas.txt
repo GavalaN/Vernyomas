@@ -1,2 +1,4 @@
-datum;szisztoles;diasztoles;pulzus;tipus
-2000-01-01;120;80;70;das
+datum;ido;szisztoles;diasztoles;pulzus;tipus
+2000-01-01;20:00;120;80;70;Prehipertenzió
+2020-04-10;12:34;180;120;150;Magas vérnyomás krízis
+2005-05-02;23:59;110;90;80;Nincs ilyen típus!

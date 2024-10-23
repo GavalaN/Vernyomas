@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vernyomasnaplo"
         mc:Ignorable="d"
-        Title="Vérnyomásnapló" Height="450" Width="770" FontSize="16" ResizeMode="NoResize" Loaded="Window_Loaded" >
+        Title="Vérnyomásnapló" Height="450" Width="770" FontSize="16" ResizeMode="NoResize" Loaded="Window_Loaded" Background="Purple" >
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="3*" />
         </Grid.ColumnDefinitions>
-        <DataGrid x:Name="dtgAdatok" Grid.Column="1" Margin="20"/>
+        <DataGrid x:Name="dtgAdatok" Grid.Column="1" Margin="20" Background="LightGray"/>
         <StackPanel Grid.Column="0" Margin="20">
             <Button x:Name="btnFelvetel" Content="Felvétel" Margin="10 20" Click="btnFelvetel_Click"/>
             <Button x:Name="btnModositas" Content="Módosítás" Margin="10 20" Click="btnModositas_Click"/>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vernyomasnaplo"
         mc:Ignorable="d"
-        Title="Módosítás" Height="300" Width="320" ResizeMode="NoResize" FontSize="16" Loaded="Window_Loaded">
+        Title="Módosítás" Height="300" Width="320" ResizeMode="NoResize" FontSize="16" Loaded="Window_Loaded" Background="Purple">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="3*" />
@@ -13,11 +13,11 @@
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="20">
             <StackPanel>
-                <Label Content="Dátum(ÉÉÉÉ-HH-NN):"/>
-                <Label Content="Idő(óó:pp):"/>
-                <Label Content="Szisztolés:"/>
-                <Label Content="Diasztolés:"/>
-                <Label Content="Pulzus:"/>
+                <Label Content="Dátum(ÉÉÉÉ-HH-NN):" Foreground="White"/>
+                <Label Content="Idő(óó:pp):" Foreground="White"/>
+                <Label Content="Szisztolés:" Foreground="White"/>
+                <Label Content="Diasztolés:" Foreground="White"/>
+                <Label Content="Pulzus:" Foreground="White"/>
             </StackPanel>
             <StackPanel>
                 <TextBox x:Name="tbDatum" Width="90" Margin="0 5 0 3"/>
